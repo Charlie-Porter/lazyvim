@@ -1,6 +1,7 @@
 local keymap = vim.keymap
 local opts = { noremap = true, silent = true }
 
+keymap.set("n", "<leader>wt", require("wezterm").switch_tab.index)
 keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" })
 
 keymap.set("n", "x", '"_x')

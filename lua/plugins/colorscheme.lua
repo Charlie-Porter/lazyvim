@@ -1,10 +1,10 @@
 return {
-  { "shaunsingh/nord.nvim" },
+  { "shatur/neovim-ayu" },
 
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "nord",
+      colorscheme = "ayu",
     },
   },
 }
